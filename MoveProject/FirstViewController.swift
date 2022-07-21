@@ -11,7 +11,6 @@ class FirstViewController: UIViewController {
     
     let mainLabel: UILabel = {
         let label = UILabel()
-        label.text = "FirstViewController"
         label.font = UIFont.systemFont(ofSize: 18)
         return label
     }()
@@ -25,10 +24,14 @@ class FirstViewController: UIViewController {
         button.addTarget(self, action: #selector(backButtonTapped), for: .touchUpInside)
         return button
     }()
+    
+    var someString: String? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        mainLabel.text = someString
         
         view.backgroundColor = .gray
         
