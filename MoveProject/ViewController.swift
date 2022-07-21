@@ -9,11 +9,36 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
 
+    
+    @IBAction func firstButtonTapped(_ sender: UIButton) {
+        let firstVC = FirstViewController()
+        present(firstVC, animated: true, completion: nil)
+        
+    }
+    
+    
+    
+    @IBAction func secondButtonTapped(_ sender: UIButton) {
+    }
+    
+    
+    
+    @IBAction func thirdButtonTapped(_ sender: UIButton) {
+    }
+    
+    
+    
+    
+    
 
 }
 
