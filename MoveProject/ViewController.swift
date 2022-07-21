@@ -48,6 +48,11 @@ class ViewController: UIViewController {
             let thirdVC = segue.destination as! ThirdViewController
             thirdVC.someString = "passdata3"
         }
+        
+        if segue.identifier == "toFourView" {
+            let fourVc = segue.destination as! FourViewController
+            fourVc.someString = "데이터전달"
+        }
     }
     
     

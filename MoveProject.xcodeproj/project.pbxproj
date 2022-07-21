@@ -16,6 +16,7 @@
 		62416FA92888E8FB00377969 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62416FA82888E8FB00377969 /* FirstViewController.swift */; };
 		62416FAB2889075600377969 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62416FAA2889075600377969 /* SecondViewController.swift */; };
 		62416FAD288919DE00377969 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62416FAC288919DE00377969 /* ThirdViewController.swift */; };
+		62416FAF2889204900377969 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62416FAE2889204900377969 /* FourViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		62416FA82888E8FB00377969 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		62416FAA2889075600377969 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		62416FAC288919DE00377969 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		62416FAE2889204900377969 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				62416F942888E75300377969 /* AppDelegate.swift */,
 				62416F962888E75300377969 /* SceneDelegate.swift */,
 				62416F982888E75300377969 /* ViewController.swift */,
+				62416FAE2889204900377969 /* FourViewController.swift */,
 				62416FAC288919DE00377969 /* ThirdViewController.swift */,
 				62416FAA2889075600377969 /* SecondViewController.swift */,
 				62416FA82888E8FB00377969 /* FirstViewController.swift */,
@@ -149,6 +152,7 @@
 			files = (
 				62416F992888E75300377969 /* ViewController.swift in Sources */,
 				62416F952888E75300377969 /* AppDelegate.swift in Sources */,
+				62416FAF2889204900377969 /* FourViewController.swift in Sources */,
 				62416F972888E75300377969 /* SceneDelegate.swift in Sources */,
 				62416FAB2889075600377969 /* SecondViewController.swift in Sources */,
 				62416FAD288919DE00377969 /* ThirdViewController.swift in Sources */,
